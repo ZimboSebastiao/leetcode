@@ -6,7 +6,7 @@
 /*   By: zimbo <zimbo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/15 03:45:38 by zimbo             #+#    #+#             */
-/*   Updated: 2025/11/15 03:57:15 by zimbo            ###   ########.fr       */
+/*   Updated: 2025/11/15 04:02:55 by zimbo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int main(void)
 	int *result = twoSum(nums, numsSize, target, &returnSize);
 	while (i < 2)
 	{
-		printf("Target: %d\n", result[i]);
+		printf("Position[%d]\n", result[i]);
 		i++;
 	}
 	free(result);
